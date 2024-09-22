@@ -1,0 +1,41 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	Frost_Shard: {
+		DisplayName: Frost Shard
+		Tooltip: oooo shiny!
+	}
+
+	Frost_Boots: {
+		DisplayName: Frost Boots
+		Tooltip: I like my water ice cold!
+	}
+
+	Soul_Sword: {
+		DisplayName: Soul Sword
+		Tooltip: Absorbs the souls of your foes!
+	}
+
+	Soul_Bottle: {
+		DisplayName: Soul Bottle
+		Tooltip: Contains the souls of your vicitms
+	}
+
+	Kitsurang: {
+		DisplayName: Kitsurang
+		Tooltip: Form of:Fox!
+	}
+
+	Bomberang: {
+		DisplayName: Bomberang
+		Tooltip: A bomb that returns to you..wait a second
+	}
+}
+
+Projectiles: {
+	kitsurang_projectile.DisplayName: kitsurang_projectile
+	KitsurangProjectile.DisplayName: Kitsurang Projectile
+	BomberangProjectile.DisplayName: Bomberang Projectile
+	ExampleRocketProjectile.DisplayName: Example Rocket Projectile
+	BomberangProjectileOLD.DisplayName: Bomberang Projectile O L D
+}
