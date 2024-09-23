@@ -1,1 +1,2 @@
-<center>test</center>
+# NON-DISTRIBUTABLE AND MODIFICATION LICENSE
+## Version 1, September 2024
