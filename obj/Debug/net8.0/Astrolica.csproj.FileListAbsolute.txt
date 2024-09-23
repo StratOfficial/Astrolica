@@ -1,0 +1,5 @@
+C:\Users\izzys\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\Astrolica\obj\Debug\net8.0\Astrolica.csproj.AssemblyReference.cache
+C:\Users\izzys\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\Astrolica\obj\Debug\net8.0\Astrolica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\izzys\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\Astrolica\obj\Debug\net8.0\Astrolica.AssemblyInfoInputs.cache
+C:\Users\izzys\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\Astrolica\obj\Debug\net8.0\Astrolica.AssemblyInfo.cs
+C:\Users\izzys\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\Astrolica\obj\Debug\net8.0\Astrolica.csproj.CoreCompileInputs.cache

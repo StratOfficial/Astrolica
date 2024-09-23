@@ -1,0 +1,3 @@
+displayName = Astrolica (Pre-Alpha)
+author = Stratejic & JaxxHunter
+version = 0.1.6
