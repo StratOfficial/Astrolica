@@ -30,6 +30,11 @@ Items: {
 		DisplayName: Bomberang
 		Tooltip: A bomb that returns to you..wait a second
 	}
+
+	Soul_Extractor: {
+		DisplayName: Soul_ Extractor
+		Tooltip: ""
+	}
 }
 
 Projectiles: {

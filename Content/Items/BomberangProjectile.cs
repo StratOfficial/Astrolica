@@ -27,6 +27,8 @@ namespace Astrolica.Content.Items
             Projectile.hostile = false;
             Projectile.penetrate = -1;
         }
+
+
         public override void PrepareBombToBlow()
         {
             base.PrepareBombToBlow();
@@ -40,18 +42,25 @@ namespace Astrolica.Content.Items
         public override void AI()
         {
             base.AI();
-            Player player = Main.player[Projectile.owner];
+
             if (Projectile.ai[2] > 4)
             {
                 Projectile.aiStyle = ProjAIStyleID.Boomerang;
             }
+
+            PostAI();
             if (!hitEnemy)
             {
                 Projectile.ai[2]++;
                 if (Projectile.ai[2] > 160)
                 {
                     Projectile.PrepareBombToBlow();
+                    hitEnemy = true;
                 }
+            }
+            else
+            {
+                Projectile.velocity = Vector2.Zero;
             }
         }
 
@@ -69,8 +78,15 @@ namespace Astrolica.Content.Items
         {
             Projectile.velocity *= -1;
             Projectile.netUpdate = true;
+            Projectile.ai[0] = 1;
             Projectile.tileCollide = false;
+            Player player = Main.player[Projectile.owner];
             SoundEngine.PlaySound(SoundID.Dig, Projectile.position);
+
+            if (Projectile.Colliding(player.getRect(), Projectile.getRect()))
+            {
+                return true;
+            }
             return false;
         }
 

@@ -17,7 +17,8 @@ namespace Astrolica.Content.Items
         static int[] damageMinMax = [10, 35];
         static int[] knockbackMinMax = [1, 10];
 
-        float Souls;
+        public float Souls;
+
         float damageIncrease = damageMinMax[1] - damageMinMax[0];
         float knockbackIncrease = knockbackMinMax[1] - knockbackMinMax[0];
 
