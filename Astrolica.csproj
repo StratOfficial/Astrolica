@@ -7,10 +7,13 @@
 	<PropertyGroup>
 		
 	</PropertyGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="Content\Projectiles\**" />
+	  <Compile Remove="Content\Projectiles\**" />
+	  <EmbeddedResource Remove="Content\Projectiles\**" />
+	  <None Remove="Content\Projectiles\**" />
+	</ItemGroup>
 
 	<!-- References -->
-	<ItemGroup>
-	  <Folder Include="Content\Projectiles\" />
-	</ItemGroup>
 
 </Project>
