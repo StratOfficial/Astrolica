@@ -31,8 +31,8 @@ Items: {
 		Tooltip: A bomb that returns to you..wait a second
 	}
 
-	Soul_Extractor: {
-		DisplayName: Soul_ Extractor
+	Soul_ExtractorPlaceable: {
+		DisplayName: Soul Extractor
 		Tooltip: ""
 	}
 }

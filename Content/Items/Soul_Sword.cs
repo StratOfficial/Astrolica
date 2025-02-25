@@ -96,7 +96,6 @@ namespace Astrolica.Content.Items
                 {
                     Souls++;
                 }
-                Main.NewText("Souls: " + Souls);
             }
         }
     }
